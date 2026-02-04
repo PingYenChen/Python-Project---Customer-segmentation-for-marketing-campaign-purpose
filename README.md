@@ -19,15 +19,13 @@ As a commercial analyst experienced in performance reporting, KPI benchmarks, an
 - **Marketing Insights**: Actionable recommendations per segment (e.g., retention offers, upselling).
 
 ## Process & Workflow
-The notebook follows a standard unsupervised learning pipeline:
+The notebook follows below pipeline:
 
 1. **Data Loading**: Import the marketing/customer dataset and initial overview.
 2. **Exploratory Data Analysis (EDA)**: Distributions, correlations, outlier detection, and summary statistics.
 3. **Data Preprocessing**: Handle missing values, encode categoricals, engineer features (e.g., RFM scores), and standardize data.
-4. **Clustering**: Apply K-Means, test multiple k values, evaluate with elbow/silhouette.
-5. **Dimensionality Reduction**: Optional PCA for visualization.
-6. **Segment Analysis**: Profile clusters with mean values, visualizations, and interpretations.
-7. **Recommendations**: Translate segments into marketing strategies.
+4. **Segment Analysis**: Profile clusters with mean values, visualizations, and interpretations.
+5. **Recommendations**: Translate segments into marketing strategies.
 
 Results often reveal 4-6 meaningful segments with clear business implications.
 
